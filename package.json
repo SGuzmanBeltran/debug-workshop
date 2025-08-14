@@ -1,18 +1,18 @@
 {
-  "name": "debug-workshop",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "run": "npx tsx watch --clear-screen=false index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/node": "^24.2.1",
-    "tsc-alias": "^1.8.16",
-    "tsx": "^4.20.4",
-    "typescript": "^5.9.2"
-  }
+	"name": "debug-workshop",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"run": "npx tsx watch --clear-screen=false src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^24.2.1",
+		"tsc-alias": "^1.8.16",
+		"tsx": "^4.20.4",
+		"typescript": "^5.9.2"
+	}
 }
